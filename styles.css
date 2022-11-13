@@ -1,0 +1,176 @@
+.navbutton{
+    cursor: pointer;
+    backface-visibility: visible;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    line-height: 1.5;
+}
+h2{
+    padding-top: 2px;
+    padding-bottom:3px ;
+    font-size: 3rem;
+    line-height: 2;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: grey;
+}
+
+/* class */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+.container-fluid{
+    padding: 3% 15%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.download {
+    position: relative;
+    z-index: 2;
+}
+.title-img {
+    width:70%;
+    transform: rotate(25deg);
+    z-index: auto z-index;
+}
+
+/* features  section*/
+#features {
+    padding: 7% 15%;
+    font-family: sans-serif;
+    font-weight: 10;
+    position: relative;
+    background-color: #fff;
+}
+.fbox {
+    padding: 2rem 0 2rem 3rem;
+    text-align: center;
+}
+.icon {
+    padding-bottom: 1rem;
+    position: relative;
+    color:#ef8172;
+}
+.icon:hover {
+    color:rgb(255, 8, 8);
+}
+
+/* testimonials */
+
+#testimonials {
+    padding: 7%  15%;
+    font-family: sans-serif;
+    font-weight: 15;
+    text-align: center;
+    background-color: #B9FFF8;
+}
+.test-img {
+    width:15%;
+    border-radius: 100%;
+    margin-right: 2rem;
+}
+.carousel-item  {
+    padding: 7% 15%;
+}
+
+/* press */
+#press {
+    background-color:#B9FFF8 ;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 15px 20px 15px;
+}
+
+
+
+/* pricing */
+#pricing {
+    padding: 100px;
+}
+.pricing-heading {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.card {
+    text-align: center;
+    font-family: sans-serif;
+    padding: 2% 3%;
+}
+
+/* call to action */
+#cta {
+
+    padding: 3rem;
+    background-color:#B9FFF8;
+    text-align: center;
+    margin-bottom: 3rem;
+    
+}
+
+/* footer */
+
+#footer{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.instagram {
+    background-color: #f207f6;
+}
+/* media query */
+@media (max-width:1140px) {
+    h2{
+        font-size: 1rem;
+    }
+    h1{
+        text-align: center;
+        font-size: 3rem;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(9);
+        width: 80%;
+        padding-left: 2rem;
+    }
+    #testimonials {
+        padding: 7%  15%;
+        
+    }
+    .test-img {
+        width:40%;
+        
+    }
+    .carousel-item  {
+        padding: 7% 15%;
+    }
+    .press-logo{
+        position:static ;
+        width: 50%;
+        margin: 3rem 3rem;
+    }
+
+}
